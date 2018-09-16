@@ -96,6 +96,7 @@
 
 #       2.3.3   使用GET方式抓取数据
 import requests
+
 url='http://www.cntour.cn/'
 strntml = requests.get(url)
 print(strntml.text)
@@ -164,7 +165,9 @@ import re
 for item in data:
     result={
         'title':item.get_text(),
-        'link':item.get('href')
+        'link':item.get('href'),
         'ID':re.findall('\d+',item.get('href'))
     }
     print(result)
+
+#   2.6爬虫攻防战
