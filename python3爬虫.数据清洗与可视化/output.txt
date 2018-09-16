@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html class="noscroll os_other ?>">
+<head>
+        <title>MAP | Kaspersky Cyberthreat real-time map</title>
+
+    <meta name="description" content="MAP | Find out if you are under cyber-attack here">
+    <meta name="keywords" content="MAP, cybermap, cyberwar, cyberattack, attack">
+    <meta name="copyright" content="AO Kaspersky Lab. All Rights Reserved.">
+
+    <!-- Google plus share meta tags -->
+    <meta itemprop="name" content="Cyberthreat Real-Time Map">
+    <meta itemprop="description" content="Find out if you’re under cyber-attack here">
+    <meta itemprop="image" content="https://cybermap.kaspersky.com/images/social_share.jpg">
+
+    <!-- Twitter share meta tags -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:creator" content="@kaspersky">
+    <meta name="twitter:site" content="@kaspersky">
+    <meta name="twitter:title" content="MAP | Kaspersky Cyberthreat real-time map"/>
+    <meta name="twitter:description"
+          content="Find out if you’re under cyber-attack here #CyberSecurityMap #CyberSecurity #CyberWar"/>
+    <meta name="twitter:url" content="https://cybermap.kaspersky.com"/>
+    <meta name="twitter:image" content="https://cybermap.kaspersky.com/images/social_share.jpg"/>
+
+    <!-- Open graph share meta tags -->
+    <meta property="og:title" content="MAP | Kaspersky Cyberthreat real-time map"/>
+    <meta property="og:site_name" content="MAP | Kaspersky Cyberthreat real-time map"/>
+    <meta property="og:url" content="https://cybermap.kaspersky.com/"/>
+    <meta property="og:description"
+          content="Find out if you’re under cyber-attack here #CyberSecurityMap #CyberSecurity #CyberWar"/>
+    <meta property="og:image" content="https://cybermap.kaspersky.com/images/social_share.jpg"/>
+    <meta property="og:type" content="website"/>
+    <meta charset="UTF-8">
+    <base href="https://cybermap.kaspersky.com">
+
+                                        <link rel="alternate" hreflang="de" href="https://cybermap.kaspersky.com/de"/>
+                                                                        <link rel="alternate" hreflang="es" href="https://cybermap.kaspersky.com/es"/>
+                                                            <link rel="alternate" hreflang="fr" href="https://cybermap.kaspersky.com/fr"/>
+                                                            <link rel="alternate" hreflang="it" href="https://cybermap.kaspersky.com/it"/>
+                                                            <link rel="alternate" hreflang="ja" href="https://cybermap.kaspersky.com/ja"/>
+                                                            <link rel="alternate" hreflang="pt" href="https://cybermap.kaspersky.com/pt"/>
+                                                            <link rel="alternate" hreflang="ru" href="https://cybermap.kaspersky.com/ru"/>
+                                                            <link rel="alternate" hreflang="tr" href="https://cybermap.kaspersky.com/tr"/>
+                                                            <link rel="alternate" hreflang="zh" href="https://cybermap.kaspersky.com/cn"/>
+                        
+    <link rel="canonical" href="https://cybermap.kaspersky.com"/>
+
+    <script>
+        window.disabledCountries = [131];
+
+        window.lang = {
+            _db: {"404_DESCRIPTION":"Page you are looking for could not be found","404_TITLE":"Page not found","ALL_RIGHTS_RESERVED":"All Rights Reserved.","AM_I_INFECTED_LINK":"https:\/\/kas.pr\/cybermap_ww_win_kis_smmbuild.exe","AM_I_INFECTED":"Am I Infected?","BUZZ_CTA_THREATPOST":"Read this on the Threadpost blog","CONTINENT_AFRIKA":"Africa","CONTINENT_ASIA":"Asia","CONTINENT_EUROPE":"Europe","CONTINENT_NORTH_AMERICA":"North America","CONTINENT_OCEANIA":"Oceania","CONTINENT_SOUTH_AMERICA":"South America","CONTINENT_WORLD":"WORLD","CONTROL_DISABLE_DEMO_MODE":"Disable demo mode","CONTROL_ENABLE_DEMO_MODE":"Enable demo mode","CONTROL_GLOBE_VIEW":"Switch to Globe view","CONTROL_PLANE_VIEW":"Switch to Plane view","CONTROL_TOGGLE_COLOR":"Toggle map Color","CONTROL_ZOOM_IN":"Zoom in","CONTROL_ZOOM_OUT":"Zoom out","COPYRIGHT":"2018 AO Kaspersky Lab.","DATA_FROM_KASPERSKY_LAB":"Based on data from Kaspersky Lab.","DETECTIONS_DISCOVERED":"Detections discovered since 00:00 GMT","DOWNLOAD_TRIAL":"Download Trial","DOWNLOAD_TRIAL_LINK_ANDROID":"https:\/\/app.appsflyer.com\/com.kms.free?pid=smm&c=ww_cybermap","DOWNLOAD_TRIAL_LINK_MAC":"https:\/\/www.kaspersky.com\/downloads\/thank-you\/mac-security-free-trial?redef=1&reseller=gl_cybermap_trd_ona_smm__onl_b2c_cybm_lnk____kism___","DOWNLOAD_TRIAL_LINK_WIN":"https:\/\/www.kaspersky.com\/downloads\/thank-you\/internet-security-free-trial?redef=1&reseller=gl_cybermap_trd_ona_smm__onl_b2c_cybm_lnk____kismd___","FOOTER_DOWNLOAD_SCREENSAVER":null,"GDPR_OK_BUTTON":"Accept","GDPR_TEXT":"We use cookies to make your experience of our websites better. By using and further navigating this website you accept that some of your browsing activity can be recorded in cookies. Detailed information about the use of cookies on this website is available by clicking on <a href=\"https:\/\/www.kaspersky.com\/web-privacy-policy\" target=\"_blank\">more information<\/a>.","HEADER_TITLE":"<b>CYBERTHREAT<\/b> REAL-TIME MAP","KASPERSKY_WEBSITE":"\/\/www.kaspersky.com\/","LANG_NAME":"English","LINK_FB":"\/\/www.facebook.com\/Kaspersky","LINK_GOOGLE_PLUS":"\/\/plus.google.com\/+KasperskyLab","LINK_LINKEDIN":"\/\/www.linkedin.com\/company\/kaspersky-lab","LINK_TWITTER":"\/\/twitter.com\/kaspersky","LINK_VK":"","MAP_CITY_BER":"Berlin","MAP_CITY_CAI":"Cairo","MAP_CITY_DUB":"Dubai","MAP_CITY_IST":"\u0130stanbul","MAP_CITY_JOH":"Johannesburg","MAP_CITY_LAX":"Tokyo","MAP_CITY_LON":"London","MAP_CITY_MAD":"Madrid","MAP_CITY_MIA":"Miami","MAP_CITY_MOS":"Moscow","MAP_CITY_MUM":"Mumbai","MAP_CITY_NAI":"Nairobi","MAP_CITY_NYC":"New York City","MAP_CITY_RIO":"Rio de Janeiro","MAP_CITY_ROM":"Rome","MAP_CITY_STP":"Saint Petersburg","MAP_CITY_SYD":"Sydney","MAP_COUNTRY_ABW":"Aruba","MAP_COUNTRY_AFG":"Afghanistan","MAP_COUNTRY_AGO":"Angola","MAP_COUNTRY_AIA":"Anguilla","MAP_COUNTRY_ALA":"Aland Islands","MAP_COUNTRY_ALB":"Albania","MAP_COUNTRY_ALL":"All countries","MAP_COUNTRY_AND":"Andorra","MAP_COUNTRY_ANT":"Netherlands Antilles","MAP_COUNTRY_ARE":"United Arab Emirates","MAP_COUNTRY_ARG":"Argentina","MAP_COUNTRY_ARM":"Armenia","MAP_COUNTRY_ASM":"American Samoa","MAP_COUNTRY_ATA":"Antarctica","MAP_COUNTRY_ATF":"French Southern Territories","MAP_COUNTRY_ATG":"Antigua And Barbuda","MAP_COUNTRY_AUS":"Australia","MAP_COUNTRY_AUT":"Austria","MAP_COUNTRY_AZE":"Azerbaijan","MAP_COUNTRY_BDI":"Burundi","MAP_COUNTRY_BEL":"Belgium","MAP_COUNTRY_BEN":"Benin","MAP_COUNTRY_BES":"Bonaire, Sint Eustatius And Saba","MAP_COUNTRY_BFA":"Burkina Faso","MAP_COUNTRY_BGD":"Bangladesh","MAP_COUNTRY_BGR":"Bulgaria","MAP_COUNTRY_BHR":"Bahrain","MAP_COUNTRY_BHS":"Bahamas","MAP_COUNTRY_BIH":"Bosnia and Herzegovina","MAP_COUNTRY_BLM":"Saint Barthelemy","MAP_COUNTRY_BLR":"Belarus","MAP_COUNTRY_BLZ":"Belize","MAP_COUNTRY_BMU":"Bermuda","MAP_COUNTRY_BOL":"Bolivia","MAP_COUNTRY_BRA":"Brazil","MAP_COUNTRY_BRB":"Barbados","MAP_COUNTRY_BRN":"Brunei Darussalam","MAP_COUNTRY_BTN":"Bhutan","MAP_COUNTRY_BVT":"Bouvet Island","MAP_COUNTRY_BWA":"Botswana","MAP_COUNTRY_CAF":"Central African Republic","MAP_COUNTRY_CAN":"Canada","MAP_COUNTRY_CCK":"Cocos (Keeling) Islands","MAP_COUNTRY_CHE":"Switzerland","MAP_COUNTRY_CHL":"Chile","MAP_COUNTRY_CHN":"China","MAP_COUNTRY_CIV":"C\u00f4te d'Ivoire","MAP_COUNTRY_CMR":"Cameroon","MAP_COUNTRY_COD":"Congo Democratic Republic","MAP_COUNTRY_COG":"Congo Republic","MAP_COUNTRY_COK":"Cook Islands","MAP_COUNTRY_COL":"Colombia","MAP_COUNTRY_COM":"Comoros","MAP_COUNTRY_CPV":"Cabo Verde","MAP_COUNTRY_CRI":"Costa Rica","MAP_COUNTRY_CUB":"Cuba","MAP_COUNTRY_CUW":"Cura\u0437ao","MAP_COUNTRY_CXR":"Christmas Island","MAP_COUNTRY_CYM":"Cayman Islands","MAP_COUNTRY_CYP":"Cyprus","MAP_COUNTRY_CZE":"Czech Republic","MAP_COUNTRY_DEU":"Germany","MAP_COUNTRY_DJI":"Djibouti","MAP_COUNTRY_DMA":"Dominica","MAP_COUNTRY_DNK":"Denmark","MAP_COUNTRY_DOM":"Dominican Republic","MAP_COUNTRY_DZA":"Algeria","MAP_COUNTRY_ECU":"Ecuador","MAP_COUNTRY_EGY":"Egypt","MAP_COUNTRY_ERI":"Eritrea","MAP_COUNTRY_ESH":"Western Sahara","MAP_COUNTRY_ESP":"Spain","MAP_COUNTRY_EST":"Estonia","MAP_COUNTRY_ETH":"Ethiopia","MAP_COUNTRY_FIN":"Finland","MAP_COUNTRY_FJI":"Fiji","MAP_COUNTRY_FLK":"Falkland Islands (Malvinas)","MAP_COUNTRY_FRA":"France","MAP_COUNTRY_FRO":"Faroe Islands","MAP_COUNTRY_FSM":"Micronesia, Federated States Of","MAP_COUNTRY_GAB":"Gabon","MAP_COUNTRY_GBR":"United Kingdom","MAP_COUNTRY_GEO":"Georgia","MAP_COUNTRY_GGY":"Guernsey","MAP_COUNTRY_GHA":"Ghana","MAP_COUNTRY_GIB":"Gibraltar","MAP_COUNTRY_GIN":"Guinea","MAP_COUNTRY_GLP":"Guadeloupe","MAP_COUNTRY_GMB":"Gambia","MAP_COUNTRY_GNB":"Guinea-Bissau","MAP_COUNTRY_GNQ":"Equatorial Guinea","MAP_COUNTRY_GRC":"Greece","MAP_COUNTRY_GRD":"Grenada","MAP_COUNTRY_GRL":"Greenland","MAP_COUNTRY_GTM":"Guatemala","MAP_COUNTRY_GUF":"French Guiana","MAP_COUNTRY_GUM":"Guam","MAP_COUNTRY_GUY":"Guyana","MAP_COUNTRY_HKG":"Hong Kong","MAP_COUNTRY_HMD":"Heard Island And Mcdonald Islands","MAP_COUNTRY_HND":"Honduras","MAP_COUNTRY_HRV":"Croatia","MAP_COUNTRY_HTI":"Haiti","MAP_COUNTRY_HUN":"Hungary","MAP_COUNTRY_IDN":"Indonesia","MAP_COUNTRY_IMN":"Isle Of Man","MAP_COUNTRY_IND":"India","MAP_COUNTRY_IOT":"British Indian Ocean Territory","MAP_COUNTRY_IRL":"Ireland","MAP_COUNTRY_IRN":"Iran","MAP_COUNTRY_IRQ":"Iraq","MAP_COUNTRY_ISL":"Iceland","MAP_COUNTRY_ISR":"Israel","MAP_COUNTRY_ITA":"Italy","MAP_COUNTRY_JAM":"Jamaica","MAP_COUNTRY_JEY":"Jersey","MAP_COUNTRY_JOR":"Jordan","MAP_COUNTRY_JPN":"Japan","MAP_COUNTRY_KAZ":"Kazakhstan","MAP_COUNTRY_KEN":"Kenya","MAP_COUNTRY_KGZ":"Kyrgyzstan","MAP_COUNTRY_KHM":"Cambodia","MAP_COUNTRY_KIR":"Kiribati","MAP_COUNTRY_KNA":"Saint Kitts And Nevis","MAP_COUNTRY_KOR":"South Korea","MAP_COUNTRY_KWT":"Kuwait","MAP_COUNTRY_LAO":"Laos","MAP_COUNTRY_LBN":"Lebanon","MAP_COUNTRY_LBR":"Liberia","MAP_COUNTRY_LBY":"Libya","MAP_COUNTRY_LCA":"Saint Lucia","MAP_COUNTRY_LIE":"Liechtenstein","MAP_COUNTRY_LKA":"Sri Lanka","MAP_COUNTRY_LSO":"Lesotho","MAP_COUNTRY_LTU":"Lithuania","MAP_COUNTRY_LUX":"Luxembourg","MAP_COUNTRY_LVA":"Latvia","MAP_COUNTRY_MAC":"Macao","MAP_COUNTRY_MAF":"Saint Martin","MAP_COUNTRY_MAR":"Morocco","MAP_COUNTRY_MCO":"Monaco","MAP_COUNTRY_MDA":"Moldova","MAP_COUNTRY_MDG":"Madagascar","MAP_COUNTRY_MDV":"Maldives","MAP_COUNTRY_MEX":"Mexico","MAP_COUNTRY_MHL":"Marshall Islands","MAP_COUNTRY_MKD":"Macedonia","MAP_COUNTRY_MLI":"Mali","MAP_COUNTRY_MLT":"Malta","MAP_COUNTRY_MMR":"Myanmar","MAP_COUNTRY_MNE":"Montenegro","MAP_COUNTRY_MNG":"Mongolia","MAP_COUNTRY_MNP":"Northern Mariana Islands","MAP_COUNTRY_MOZ":"Mozambique","MAP_COUNTRY_MRT":"Mauritania","MAP_COUNTRY_MSR":"Montserrat","MAP_COUNTRY_MTQ":"Martinique","MAP_COUNTRY_MUS":"Mauritius","MAP_COUNTRY_MWI":"Malawi","MAP_COUNTRY_MYS":"Malaysia","MAP_COUNTRY_MYT":"Mayotte","MAP_COUNTRY_NAM":"Namibia","MAP_COUNTRY_NCL":"New Caledonia","MAP_COUNTRY_NER":"Niger","MAP_COUNTRY_NFK":"Norfolk Island","MAP_COUNTRY_NGA":"Nigeria","MAP_COUNTRY_NIC":"Nicaragua","MAP_COUNTRY_NIU":"Niue","MAP_COUNTRY_NLD":"Netherlands","MAP_COUNTRY_NOR":"Norway","MAP_COUNTRY_NPL":"Nepal","MAP_COUNTRY_NRU":"Nauru","MAP_COUNTRY_NZL":"New Zealand","MAP_COUNTRY_OMN":"Oman","MAP_COUNTRY_PAK":"Pakistan","MAP_COUNTRY_PAN":"Panama","MAP_COUNTRY_PCN":"Pitcairn","MAP_COUNTRY_PER":"Peru","MAP_COUNTRY_PHL":"Philippines","MAP_COUNTRY_PLW":"Palau","MAP_COUNTRY_PNG":"Papua New Guinea","MAP_COUNTRY_POL":"Poland","MAP_COUNTRY_PRI":"Puerto Rico","MAP_COUNTRY_PRK":"North Korea","MAP_COUNTRY_PRT":"Portugal","MAP_COUNTRY_PRY":"Paraguay","MAP_COUNTRY_PSE":"Palestinian Territory, Occupied","MAP_COUNTRY_PYF":"French Polynesia","MAP_COUNTRY_QAT":"Qatar","MAP_COUNTRY_REU":"Reunion","MAP_COUNTRY_ROU":"Romania","MAP_COUNTRY_RUS":"Russia","MAP_COUNTRY_RWA":"Rwanda","MAP_COUNTRY_SAU":"Saudi Arabia","MAP_COUNTRY_SDN":"Sudan","MAP_COUNTRY_SEN":"Senegal","MAP_COUNTRY_SGP":"Singapore","MAP_COUNTRY_SGS":"South Georgia And The South Sandwich Islands","MAP_COUNTRY_SHN":"Saint Helena, Ascension And Tristan Da Cunha","MAP_COUNTRY_SJM":"Svalbard","MAP_COUNTRY_SLB":"Solomon Islands","MAP_COUNTRY_SLE":"Sierra Leone","MAP_COUNTRY_SLV":"El Salvador","MAP_COUNTRY_SMR":"San Marino","MAP_COUNTRY_SOM":"Somalia","MAP_COUNTRY_SPM":"Saint Pierre And Miquelon","MAP_COUNTRY_SRB":"Serbia","MAP_COUNTRY_SSD":"South Sudan","MAP_COUNTRY_STP":"Sao Tome And Principe","MAP_COUNTRY_SUR":"Suriname","MAP_COUNTRY_SVK":"Slovakia","MAP_COUNTRY_SVN":"Slovenia","MAP_COUNTRY_SWE":"Sweden","MAP_COUNTRY_SWZ":"Swaziland","MAP_COUNTRY_SXM":"Sint Maarten","MAP_COUNTRY_SYC":"Seychelles","MAP_COUNTRY_SYR":"Syria","MAP_COUNTRY_TCA":"Turks And Caicos Islands","MAP_COUNTRY_TCD":"Chad","MAP_COUNTRY_TGO":"Togo","MAP_COUNTRY_THA":"Thailand","MAP_COUNTRY_TJK":"Tajikistan","MAP_COUNTRY_TKL":"Tokelau","MAP_COUNTRY_TKM":"Turkmenistan","MAP_COUNTRY_TLS":"Timor-Leste","MAP_COUNTRY_TON":"Tonga","MAP_COUNTRY_TTO":"Trinidad And Tobago","MAP_COUNTRY_TUN":"Tunisia","MAP_COUNTRY_TUR":"Turkey","MAP_COUNTRY_TUV":"Tuvalu","MAP_COUNTRY_TWN":"Taiwan","MAP_COUNTRY_TZA":"Tanzania","MAP_COUNTRY_UGA":"Uganda","MAP_COUNTRY_UKR":"Ukraine","MAP_COUNTRY_UMI":"United States Minor Outlying Islands","MAP_COUNTRY_URY":"Uruguay","MAP_COUNTRY_USA":"United States","MAP_COUNTRY_UZB":"Uzbekistan","MAP_COUNTRY_VAT":"Holy See (Vatican City State)","MAP_COUNTRY_VCT":"Saint Vincent And The Grenadines","MAP_COUNTRY_VEN":"Venezuela","MAP_COUNTRY_VGB":"Virgin Islands, British","MAP_COUNTRY_VIR":"Virgin Islands, U.S.","MAP_COUNTRY_VNM":"Vietnam","MAP_COUNTRY_VUT":"Vanuatu","MAP_COUNTRY_WLF":"Wallis And Futuna","MAP_COUNTRY_WSM":"Samoa","MAP_COUNTRY_XKX":"Kosovo","MAP_COUNTRY_YEM":"Yemen","MAP_COUNTRY_ZAF":"South Africa","MAP_COUNTRY_ZMB":"Zambia","MAP_COUNTRY_ZWE":"Zimbabwe","MENU_BUZZ":"BUZZ","MENU_DATA_SOURCES":"DATA SOURCES","MENU_MAP":"MAP","MENU_SHARE_LABEL":"Share","MENU_STATISTICS":"STATISTICS","MENU_WIDGET":"WIDGET","META_COPYRIGHT":"AO Kaspersky Lab. All Rights Reserved.","META_DESCRIPTION_BUZZ":"BUZZ | Find out if you are under cyber-attack here","META_DESCRIPTION_MAP":"MAP | Find out if you are under cyber-attack here","META_DESCRIPTION_STATS":"STATISTICS | Find out if you are under cyber-attack here","META_DESCRIPTION_SUBSYSTEMS":"DATA SOURCES | Find out if you are under cyber-attack here","META_DESCRIPTION_TOS":"Terms of Service | Find out if you are under cyber-attack here","META_DESCRIPTION_WIDGET":"WIDGET | Find out if you are under cyber-attack here","META_KEYWORDS_BUZZ":"BUZZ, cybermap, cyberwar, cyberattack, attack","META_KEYWORDS_MAP":"MAP, cybermap, cyberwar, cyberattack, attack","META_KEYWORDS_STATS":"STATISTICS, cybermap, cyberwar, cyberattack, attack","META_KEYWORDS_SUBSYSTEMS":"DATA SOURCES, cybermap, cyberwar, cyberattack, attack","META_KEYWORDS_TOS":"Terms of Service, cybermap, cyberwar, cyberattack, attack","META_KEYWORDS_WIDGET":"WIDGET, cybermap, cyberwar, cyberattack, attack","MORE_DETAILS":"More details","MOST_ATTACKED_COUNTRY":"MOST-ATTACKED COUNTRY","NUMBER_SYMBOL":"#","PRIVACY_POLICY":"Privacy policy","PRIVACY_POLICY_URL":"https:\/\/www.kaspersky.com\/web-privacy-policy","SCREENSAVER_CPU":null,"SCREENSAVER_DOWNLOAD_MAC":null,"SCREENSAVER_DOWNLOAD_TITLE":null,"SCREENSAVER_DOWNLOAD_WIN_X64":null,"SCREENSAVER_DOWNLOAD_WIN_X86":null,"SCREENSAVER_GPU":null,"SCREENSAVER_REQUIREMENTS":null,"SHARE_DATA":"Share data","SOCIAL_HASH_TAGS":"#CyberSecurityMap #CyberSecurity #CyberWar","SOCIAL_LINK":"https:\/\/cybermap.kaspersky.com\/","SOCIAL_TEXT":"Find out if you\u2019re under cyber-attack here","STATISTICS_BOTNET_ACTIVITY":"Botnet activity","STATISTICS_DETECTIONS_PER_SECOND":"DETECTIONS PER SECOND","STATISTICS_HISTORY":"HISTORICAL STATISTICS","STATISTICS_IN_THE_LAST":"IN THE LAST","STATISTICS_INFECTED_MAIL":"Infected Mail","STATISTICS_LAST_MONTH":"Last month","STATISTICS_LAST_WEEK":"Last week","STATISTICS_LOCAL_INFECTIONS":"Local infections","STATISTICS_MONTH":"MONTH","STATISTICS_MOST_INFECTED_TODAY":"MOST INFECTED TODAY","STATISTICS_NETWORK_ATTACKS":"Network attacks","STATISTICS_NO_DATA":"NO DATA","STATISTICS_ON_DEMAND_SCAN":"On-Demand Scan","STATISTICS_PER_COUNTRY":"PER COUNTRY","STATISTICS_REAL_TIME":"REAL-TIME","STATISTICS_SEE_HISTORICAL_DATA":"See historical data","STATISTICS_SPAM":"Spam","STATISTICS_TIME_PERIOD":"TIME PERIOD","STATISTICS_TOP":"Top","STATISTICS_TOTALS_RESET":"Detection totals reset every day at 0:00:00 GMT.","STATISTICS_VULNERABILITIES":"Vulnerabilities","STATISTICS_WEB_THREATS":"Web threats","STATISTICS_WEEK":"WEEK","STATISTICS_WORLDWIDE":"WORLDWIDE","SUBSYSTEMS_ESSENTIAL_PROTECTION":"ESSENTIAL PROTECTION FOR YOUR PC AGAINST MALWARE","SUBSYSTEMS_ESSENTIAL_PROTECTION_LINK":"https:\/\/www.kaspersky.com\/downloads\/thank-you\/total-security-free-trial?redef=1&reseller=gl_cybermap_trd_ona_smm__onl_b2c_cybm_lnk____ktsmd___","SUBTITLE":"Cyberthreat Real-Time Map","TERMS_AND_CONDITIONS_BODY":"Your use of the web site indicates that you agree to be bound by these terms and conditions. AO Kaspersky Lab (further Kaspersky Lab) reserves the right to change these terms of use or modify any features of the web site at any time at its sole discretion, without notice. If you continue to use the web site after any changes, you will be deemed to have accepted the changes. If you do not agree to all of the terms of use, do not use the web site.<br\/>Kaspersky Lab is the owner of all rights, whether exclusive or otherwise to the web site. Kaspersky Lab has all necessary rights, including the intellectually property rights, as well as licenses to posted material and information, including, but not limited to, text, photographs, graphics, video, audio content, and computer code (the content) on the web site.<br\/>Kaspersky Lab hereby grants you the right to view and use the web site and content solely for informational, personal, or non-commercial purposes.<br\/>You may download, save on your computer or share the content from the web site purposely made available by the Kaspersky Lab for such purposes, provided that you (1) do not remove any proprietary notices, (2) use downloadable content only for your personal, non-commercial purpose and do not redistribute it, (3) make no modifications to any such content and do not misrepresent or demean the content.<br\/>Any distribution, publishing, or reproduction of content from this web site not expressly provided in these terms of use is strictly forbidden, except to the extent that the foregoing restrictions are expressly prohibited by applicable law.<br\/><br\/>THE CONTENT ON THIS WEB SITE IS PROVIDED \u2019AS IS\u2019 WITHOUT WARRANTY OR CONDITIONS OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.<br\/>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE RIGHTHOLDER BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OF THE CONTENT ON THE WEB SITE.<br\/><br\/>\u00a9 2018 AO Kaspersky Lab. All Rights Reserved. The Software and any accompanying documentation are copyrighted and protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.<br\/><br\/>","TERMS_AND_CONDITIONS_INTRO":"IMPORTANT LEGAL NOTICE TO ALL USERS: CAREFULLY READ THE FOLLOWING TERMS OF USE BEFORE YOU START USING THE WEB SITE.","TERMS_AND_CONDITIONS_LAST_UPDATE":"The last modification was on 18.08.2015","TERMS_AND_CONDITIONS_TITLE":"Terms of use for the web site.","TERMS_OF_SERVICE":"Terms of Service","THREATS_URL":"https:\/\/threats.kaspersky.com\/en\/threat\/","TITLE_BUZZ":"BUZZ | Kaspersky Cyberthreat real-time map","TITLE_MAP":"MAP | Kaspersky Cyberthreat real-time map","TITLE_STATS":"STATISTICS | Kaspersky Cyberthreat real-time map","TITLE_SUBSYSTEMS":"DATA SOURCES | Kaspersky Cyberthreat real-time map","TITLE_TOS":"Terms of Service | Kaspersky Cyberthreat real-time map","TITLE_WIDGET":"WIDGET | Kaspersky Cyberthreat real-time map","WIDGET_COLOR_THEME":"Color Theme","WIDGET_DARK_THEME":"Dark","WIDGET_DESCRIPTION":"Add the Cybermap to your site by configuring the parameters below and adding the resulting HTML code.","WIDGET_EMAIL_TOPIC":"Cybermap widget installation","WIDGET_HEIGHT":"Height","WIDGET_LANGUAGE":"Language","WIDGET_LIGHT_THEME":"Light","WIDGET_MAIL_THIS_CODE":"MAIL THIS CODE","WIDGET_TAG_RENDER_DESCRIPTION":"Insert this tag where you want the widget to render","WIDGET_TITLE":"CYBERMAP WIDGET","WIDGET_TYPE":"Type","WIDGET_TYPE_DYNAMIC":"Dynamic","WIDGET_TYPE_STATIC":"Static","WIDGET_WIDTH":"Width"},
+
+            languages: (function () {
+                var o = ["de","en","es","fr","it","ja","pt","ru","tr","cn"];
+                return o.map(function (e) {
+                    return e[0]
+                }).sort();
+            }()),
+
+            lang: function () {
+                return 'en';
+            },
+
+            getText: function (id) {
+                return this._db[id];
+            }
+        }
+    </script>
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700">
+
+        <link href="/build/css/map-46ea8fed75.css" rel="stylesheet" type="text/css">
+
+    
+    <script type="text/javascript">
+        var platformDetection = {
+            isDesktop: false,
+            isTablet: false,
+            isMobile: false,
+            isIOS: false,
+            isAndroid: false
+        };
+    </script>
+
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+
+            <!-- Omniture tracking -->
+<script src="//assets.adobedtm.com/7601597e3e3ebbd3bb3e7933f74a913199637fbc/satelliteLib-897d59fdc57d4d4752c27c070947786e240c10a9.js"></script>
+            
+            <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MFTFX35');</script>
+<!-- End Google Tag Manager -->
+            <meta name="google-site-verification" content="i96cMotTIvLIODnFRg1hoEuOu9l6pwwsz17acnC7kqw" />
+    </head>
+<body class="noscroll">
+
+<    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0"
+         style="position:absolute">
+
+        
+                    <symbol id="header_sharing_fb" viewBox="98 35.8 400.5 770.5">
+                <path d="M357.4,806.3l0.3-351.6l118,0.1l17.8-137.1l-135.7-0.1l0.1-87.4c0-39.8,10.9-66.6,68.1-66.6l72.4,0.1
+	l0.1-122.5c-12.5-1.7-55.6-5.4-105.7-5.4C288,35.6,216.5,99.4,216.5,216.4l-0.1,101l-118.3-0.1L98,454.4l118.4,0.1L215.9,806
+	l141.5,0.1V806.3z"/>
+            </symbol>
+        
+                    <symbol id="header_sharing_tw" viewBox="0 357.8 595.3 484.1">
+                <path d="M595.5,415c-22,9.8-45.5,16.3-70.1,19.2c25.3-15,44.6-39,53.8-67.5c-23.7,13.9-49.9,24.2-77.7,29.7
+	c-22.3-23.8-54-38.6-89.1-38.6c-67.4,0-122.2,54.7-122.2,122.2c0,9.6,1.2,19,3.3,27.9c-101.8-5.3-191.8-53.9-252-127.7
+	c-10.4,18.1-16.5,39-16.5,61.4c0,42.5,21.6,79.7,54.5,101.7c-19.9-0.7-38.7-6.1-55.2-15.3v1.6c0,59.2,42,108.5,97.9,119.7
+	c-10.2,2.8-21.1,4.4-32.2,4.4c-7.9,0-15.5-0.9-23.1-2.1c15.5,48.5,60.8,83.8,114.1,84.9c-41.8,32.7-94.4,52.2-151.8,52.2
+	c-9.7,0-19.6-0.7-29.2-1.8c54,34.6,118.2,55,187.2,55c224.7,0,347.4-186.2,347.4-347.4c0-5.3-0.2-10.7-0.4-16
+	C558.5,460.8,579.1,439.3,595.5,415L595.5,415z"/>
+            </symbol>
+        
+                    <symbol id="header_sharing_gplus" viewBox="0 245 595.3 596.9">
+                <path d="M595.2,511.3h-78.9v-78.8H476v78.8h-78.9v38.6H476v78.9h40.3v-78.9h78.9V511.3z M313.2,585.5l-28.8-21.9
+	c-8.8-7-20.7-16.4-20.7-33.8c0-17.3,11.9-28.2,22.3-38.6c33.5-25.9,66.9-53.4,66.9-111.3c0-59.7-36.2-88.5-54.7-103.4h47.2L397,245
+	H230.9c-43.1,0-101.2,4.4-146.5,41.4C50.2,315.3,39,358.1,39,394.2c0,61.2,47.9,123.2,132.4,123.2c8.1,0,16.6-0.8,25.4-1.7
+	c-4,9.3-8,17.2-8,30.6c0,24.3,12.8,39.3,23.8,53.3C177,602,110.1,606,60.7,635.8c-47.1,27.7-61.4,67.6-61.4,95.8
+	c0,58.2,53.4,112.8,169,112.8c137,0,211.7-75.1,211.7-148.9C380.1,641.2,348.2,614.6,313.2,585.5L313.2,585.5z M208.9,497.4
+	c-68.6,0-99.5-87.1-99.5-139.7c0-20.4,4.1-43.6,17.5-60.1c12.8-15.8,35-23.9,55.7-23.9c66-0.1,100.4,87.8,100.4,144.2
+	c0,14.2-1.5,37.2-19.9,55.3C250.4,486,228.8,497.2,208.9,497.4L208.9,497.4z M209.4,810.9c-85.2,0-140.3-40-140.3-95.9
+	c0-55.7,51-74.5,68.6-80.8c33.5-11.1,76.5-12.6,83.6-12.6c8,0,12,0,18.3,0.9c60.7,42.4,86.9,63.4,86.9,103.6
+	C326.6,774.7,286,810.9,209.4,810.9L209.4,810.9z"/>
+            </symbol>
+        
+    </svg>
+
+<div id="mobile_menu" class="closed">
+    <ul class="menu_items">
+        <li class="mobile_menu_item">
+            <a id="mobile_menu_close_button">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 595.3 841.9" enable-background="new 0 0 595.3 841.9" xml:space="preserve">
+                    <path d="M595.3,652.5L363.8,420.9l231.5-231.5l-66.1-66.1L297.6,354.8L66.1,123.3L0,189.4l231.5,231.5L0,652.5
+	l66.1,66.1l231.5-231.5l231.5,231.5"/>
+                </svg>
+            </a>
+        </li>
+        <li class="mobile_menu_item"><a href="/"
+                                        class="" data-subpage="1">MAP</a>
+        </li>
+
+                <li class="mobile_menu_item"><a
+                    href="/stats/"
+                    data-subpage="2">STATISTICS</a>
+        </li>
+        
+                <li class="mobile_menu_item"><a
+                    href="/subsystems/"
+                    data-subpage="3">DATA SOURCES</a>
+        </li>
+        
+                <li class="mobile_menu_item"><a href="/buzz/"
+                                        data-subpage="4">BUZZ</a>
+        </li>
+        
+                <li class="mobile_menu_item"><a
+                    href="/widget/"
+                    data-subpage="5">WIDGET</a>
+        </li>
+        
+                    <li class="mobile_menu_item">
+                <h3>Language
+                    <a class="mobile_menu_lang_item lang_item_selected">
+                        <span class="flag flag-en">&nbsp;</span><span
+                                class="lang_item">EN</span>
+                    </a>
+                </h3>
+                                    <ul id="mobile_menu_language_selector">
+                                                    <li>
+                                <a href="/de/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-de">&nbsp;</span><span
+                                            class="lang_item">DE</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/es/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-es">&nbsp;</span><span
+                                            class="lang_item">ES</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/fr/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-fr">&nbsp;</span><span
+                                            class="lang_item">FR</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/it/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-it">&nbsp;</span><span
+                                            class="lang_item">IT</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/ja/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-ja">&nbsp;</span><span
+                                            class="lang_item">JA</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/pt/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-pt">&nbsp;</span><span
+                                            class="lang_item">PT</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/ru/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-ru">&nbsp;</span><span
+                                            class="lang_item">RU</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/tr/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-tr">&nbsp;</span><span
+                                            class="lang_item">TR</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/cn/"
+                                   class="mobile_menu_lang_item ">
+                                    <span class="flag flag-cn">&nbsp;</span><span
+                                            class="lang_item">CN</span>
+                                </a>
+                            </li>
+                                            </ul>
+                            </li>
+        
+                    <li class="mobile_menu_item">
+                <h3>SHARE</h3>
+                <ul id="mobile_menu_share_block">
+                    
+                                            <li>
+                            <a href="https://www.facebook.com/dialog/feed?app_id=634328833377154&amp;display=popup&amp;caption=Cyberthreat+Real-Time+Map&amp;name=Cyberthreat+Real-Time+Map&amp;link=https://cybermap.kaspersky.com/&amp;description=Find+out+if+you%E2%80%99re+under+cyber-attack+here+%23CyberSecurityMap+%23CyberSecurity+%23CyberWar&amp;picture=https://cybermap.kaspersky.com/%2Fimages%2Fsocial_share.jpg" class="facebook" target="_blank" id="header_mobile_share_button_facebook">
+                                <svg class="header_sharing_button">
+                                    <use xlink:href="#header_sharing_fb"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                                            <li>
+                            <a href="http://twitter.com/intent/tweet?url=https%3A%2F%2Fcybermap.kaspersky.com%2F&amp;text=Find+out+if+you%E2%80%99re+under+cyber-attack+here+%23CyberSecurityMap+%23CyberSecurity+%23CyberWar" class="twitter" target="_blank" id="header_mobile_share_button_twitter">
+                                <svg class="header_sharing_button">
+                                    <use xlink:href="#header_sharing_tw"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                                            <li>
+                            <a href="https://plus.google.com/share?url=https://cybermap.kaspersky.com/" class="gplus" target="_blank" id="header_mobile_share_button_gplus">
+                                <svg class="header_sharing_button">
+                                    <use xlink:href="#header_sharing_gplus"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+                    <li class="mobile_menu_item">
+                <a target="_blank" id="mobile_menu_infected_btn" href="https://kas.pr/cybermap_ww_win_kis_smmbuild.exe">
+                    Am I Infected?
+                </a>
+            </li>
+            </ul>
+
+
+</div>
+
+
+<div id="header" style="">
+    <div id="header_mainheader">
+                    <a id="header_menu_button">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 397.2 595.3 444.7" enable-background="new 0 397.2 595.3 444.7" xml:space="preserve">
+	                <rect x="2" y="397.2" width="591.2" height="74.7"/>
+                    <rect x="2" y="586.9" width="591.2" height="74.7"/>
+                    <rect x="2" y="767.4" width="591.2" height="74.7"/>
+                </svg>
+            </a>
+        
+                    <h1 id="header_main_title"> <b>CYBERTHREAT</b> REAL-TIME MAP</h1>
+        
+                    <div id="header_language_selector">
+                <ul>
+                    <li id="selected_language">
+                        <div>
+                            <span class="flag flag-en">&nbsp;</span><span
+                                    class="lang_item">EN</span>
+                        </div>
+                        <ul id="alternative_languages">
+                                                            <li>
+                                    <a href="/de/">
+                                        <span class="flag flag-de">&nbsp;</span><span
+                                                class="lang_item">DE</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/es/">
+                                        <span class="flag flag-es">&nbsp;</span><span
+                                                class="lang_item">ES</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/fr/">
+                                        <span class="flag flag-fr">&nbsp;</span><span
+                                                class="lang_item">FR</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/it/">
+                                        <span class="flag flag-it">&nbsp;</span><span
+                                                class="lang_item">IT</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/ja/">
+                                        <span class="flag flag-ja">&nbsp;</span><span
+                                                class="lang_item">JA</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/pt/">
+                                        <span class="flag flag-pt">&nbsp;</span><span
+                                                class="lang_item">PT</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/ru/">
+                                        <span class="flag flag-ru">&nbsp;</span><span
+                                                class="lang_item">RU</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/tr/">
+                                        <span class="flag flag-tr">&nbsp;</span><span
+                                                class="lang_item">TR</span>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="/cn/">
+                                        <span class="flag flag-cn">&nbsp;</span><span
+                                                class="lang_item">CN</span>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                </ul>
+            </div>
+        
+
+        
+                    <a target="_blank" href="https://kas.pr/cybermap_ww_win_kis_smmbuild.exe">
+                <button id="header_main_button">Am I Infected?</button>
+            </a>
+            </div>
+
+            <div id="header_subheader">
+            <ul class="menu">
+
+                <li><a href="/"
+                       data-subpage="1">MAP</a>
+                </li>
+
+                                    <li><a href="/stats/"
+                           data-subpage="2">STATISTICS</a>
+                    </li>
+                
+                                    <li><a href="/subsystems/"
+                           data-subpage="3">DATA SOURCES</a>
+                    </li>
+                
+                                    <li><a href="/buzz/"
+                           data-subpage="4">BUZZ</a>
+                    </li>
+                
+                                    <li class="last"><a
+                                href="/widget/"
+                                data-subpage="5">WIDGET</a>
+                    </li>
+                
+            </ul>
+
+                        <ul id="share_links">
+                
+                                    <li>
+                        <a href="https://www.facebook.com/dialog/feed?app_id=634328833377154&amp;display=popup&amp;caption=Cyberthreat+Real-Time+Map&amp;name=Cyberthreat+Real-Time+Map&amp;link=https://cybermap.kaspersky.com/&amp;description=Find+out+if+you%E2%80%99re+under+cyber-attack+here+%23CyberSecurityMap+%23CyberSecurity+%23CyberWar&amp;picture=https://cybermap.kaspersky.com/%2Fimages%2Fsocial_share.jpg" target="_blank" class="facebook" id="header_desktop_share_button_facebook">
+                            <svg class="header_sharing_button">
+                                <use xlink:href="#header_sharing_fb"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                                    <li>
+                        <a href="http://twitter.com/intent/tweet?url=https%3A%2F%2Fcybermap.kaspersky.com%2F&amp;text=Find+out+if+you%E2%80%99re+under+cyber-attack+here+%23CyberSecurityMap+%23CyberSecurity+%23CyberWar" target="_blank" class="twitter" id="header_desktop_share_button_twitter">
+                            <svg class="header_sharing_button">
+                                <use xlink:href="#header_sharing_tw"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                                    <li class="last"><a href="https://plus.google.com/share?url=https://cybermap.kaspersky.com/" target="_blank" class="gplus" id="header_desktop_share_button_gplus">
+                            <svg class="header_sharing_button">
+                                <use xlink:href="#header_sharing_gplus"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+            </ul>
+            <span id="share_label">Share</span>
+
+                    </div>
+    
+</div>
+
+
+<div id="content">
+        <div id="selected-country-name"></div>
+
+    <div id="map_controls">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0"
+             style="position:absolute">
+
+                            <symbol id="map-plane" viewBox="-40 190 700 700">
+                    <path d="M0,260.1v548.3h593.4V260.1H0z M567.5,389.7H448.8V286h118.7V389.7z M307.9,389.7V286h115.1v103.7H307.9z
+	 M422.9,415.5v110H307.9v-110H422.9z M282,389.7H166.9V286H282L282,389.7L282,389.7z M282,415.5v110H166.9v-110H282z M140.9,525.5
+	H25.9v-110h115.1L140.9,525.5L140.9,525.5z M140.9,551.5v110H25.9v-110H140.9z M166.9,551.5H282v110H166.9V551.5z M282,687.4v95
+	H166.9v-95H282z M307.9,687.4h115.1v95H307.9V687.4z M307.9,661.5v-110h115.1v110H307.9z M448.8,551.5h118.7v110H448.8L448.8,551.5
+	L448.8,551.5z M448.8,525.5v-110h118.7v110H448.8z M140.9,286v103.7H25.9V286H140.9z M25.9,687.4h115.1v95H25.9V687.4z M448.8,782.5
+	v-95h118.7v95H448.8z"/>
+                </symbol>
+
+                <symbol id="map-globe" viewBox="-40 160 700 700">
+                    <path d="M297.4,213.6c-163.5,0-296.6,133-296.6,296.5s133.1,296.6,296.6,296.6s296.5-133,296.5-296.5
+	S461,213.6,297.4,213.6z M27.2,523.1h87.5c1.5,53.1,11.5,102.7,28,145H77.9C48.2,626.9,29.8,577,27.2,523.1z M284.4,311h-93.1
+	c25-39.6,57.4-65.4,93.1-70.5V311z M284.4,336.9v160.2H140.7c1.7-60.8,15-116.3,36.3-160.2H284.4L284.4,336.9z M310.4,336.9h107.5
+	c21.2,43.9,34.6,99.4,36.3,160.2H310.4V336.9z M310.4,311v-70.4c35.8,5.1,68.2,30.9,93.1,70.5L310.4,311L310.4,311z M392.4,256.8
+	c32.8,12.4,62.6,30.9,88,54.2h-47.6C421.1,290,407.5,271.7,392.4,256.8z M162,311h-47.6c25.4-23.3,55.2-41.8,88-54.2
+	C187.4,271.7,173.8,290,162,311z M149,336.9c-20.2,45.4-32.8,100.6-34.3,160.2H27.2c2.9-60.8,25.9-116.3,62.5-160.2H149L149,336.9z
+	 M140.7,523.1h143.8v145H170.1C152.9,626.9,142.2,577,140.7,523.1z M284.4,694.1v85.6c-40.2-5.7-76.1-37.5-101.9-85.6H284.4z
+	 M310.4,779.7v-85.6h101.9C386.4,742.2,350.6,774,310.4,779.7z M310.4,668.1v-145h143.8c-1.5,54-12.2,103.8-29.5,145H310.4z
+	 M480.1,523.1h87.5c-2.5,54-21,103.8-50.8,145h-64.8C468.6,625.7,478.7,576.2,480.1,523.1z M480.1,497.1
+	c-1.6-59.6-14.1-114.7-34.3-160.2h59.3c36.6,43.9,59.6,99.4,62.5,160.2H480.1z M99.3,694.1h54.9c13.4,27.4,29.9,51,48.3,69.4
+	C162.8,748.5,127.6,724.5,99.3,694.1z M392.4,763.5c18.6-18.4,34.9-41.9,48.3-69.4h54.9C467.3,724.5,432.1,748.5,392.4,763.5z"/>
+                </symbol>
+            
+                            <symbol id="map-light" viewBox="-40 80 700 700">
+                    <path d="M377,600.7H98.7C44.3,600.7,0,556.4,0,501.9V223.6c0-54.5,44.3-98.7,98.7-98.7H377
+		c54.4,0,98.7,44.3,98.7,98.7v278.3C475.8,556.4,431.5,600.7,377,600.7z M98.7,153.1c-38.9,0-70.5,31.6-70.5,70.5v278.3
+		c0,38.9,31.6,70.5,70.5,70.5H377c38.9,0,70.5-31.6,70.5-70.5V223.6c0-38.9-31.6-70.5-70.5-70.5H98.7z"/>
+                    <path d="M509.2,717.4H168.3c-46.6,0-84.6-38.1-84.6-84.6V291.8c0-46.6,38.1-84.6,84.6-84.6h340.9
+		c46.6,0,84.6,38.1,84.6,84.6v340.9C593.9,679.3,555.8,717.4,509.2,717.4z"/>
+                </symbol>
+
+                <symbol id="map-dark" viewBox="-40 80 700 700">
+                    <path d="M137,336c0-52.5,42.7-95.2,95.2-95.2h260.7v-15.9c0-44.9-36.7-81.6-81.6-81.6H82.6C37.7,143.3,1,180,1,224.9
+	v328.7c0,44.9,36.7,81.6,81.6,81.6h59.6c-3.3-9.7-5.2-20.1-5.2-30.9V336z"/>
+                    <path d="M500.5,240.8h-7.6V268h7.6c37.5,0,68,30.5,68,68v268.3c0,37.5-30.5,68-68,68H232.2
+	c-26.4,0-49.3-15.1-60.5-37.1h-29.5c12.9,37.4,48.4,64.3,90.1,64.3h268.3c52.5,0,95.2-42.7,95.2-95.2V336
+	C595.7,283.5,553,240.8,500.5,240.8z"/>
+                    <path d="M164.2,604.3V336c0-37.5,30.5-68,68-68h260.7v-27.2H232.2c-52.5,0-95.2,42.7-95.2,95.2v268.3
+	c0,10.8,1.8,21.2,5.2,30.9h29.5C166.9,626,164.2,615.5,164.2,604.3z"/>
+                </symbol>
+            
+                            <symbol id="map-zoom-in" viewBox="-70 100 612 612">
+                    <path d="M212.7,538.7C95.4,538.7,0,443.3,0,326s95.4-212.7,212.7-212.7c117.3,0,212.7,95.4,212.7,212.7
+			S330.1,538.7,212.7,538.7z M212.7,165.4c-88.6,0-160.6,72.1-160.6,160.6c0,88.6,72.1,160.6,160.6,160.6S373.4,414.6,373.4,326
+			C373.4,237.4,301.3,165.4,212.7,165.4z"/>
+                    <path d="M421.2,636.4c-7.8,0-15.5-3.5-20.7-10.2L299.4,494.6c-8.8-11.4-6.6-27.8,4.8-36.5
+			c11.4-8.8,27.8-6.7,36.5,4.8l101.1,131.7c8.8,11.4,6.6,27.8-4.8,36.5C432.3,634.7,426.7,636.4,421.2,636.4z"/>
+                    <rect x="193.2" y="242" width="39.1" height="168"/>
+                    <rect x="128.8" y="306.5" width="168" height="39.1"/>
+                </symbol>
+
+                <symbol id="map-zoom-out" viewBox="-70 100 612 612">
+
+                    <path d="M212.2,537.6C95.2,537.6,0,442.4,0,325.4s95.2-212.2,212.2-212.2s212.2,95.2,212.2,212.2
+			S329.2,537.6,212.2,537.6z M212.2,165.2C123.8,165.2,52,237.1,52,325.4c0,88.3,71.9,160.2,160.2,160.2
+			c88.3,0,160.2-71.9,160.2-160.2C372.4,237.1,300.5,165.2,212.2,165.2z"/>
+                    <path d="M420,635c-7.8,0-15.5-3.5-20.6-10.2L298.6,493.5c-8.7-11.4-6.6-27.7,4.8-36.4c11.4-8.7,27.7-6.6,36.4,4.8
+			l100.8,131.3c8.7,11.4,6.6,27.7-4.8,36.4C431.1,633.2,425.5,635,420,635z"/>
+                    <rect x="128.4" y="305.9" width="167.5" height="39"/>
+                </symbol>
+            
+                            <symbol id="map-demo-off" viewBox="-50 100 700 700">
+                    <path d="M2.4,225.8h36.1c27.9,0,48,6.7,60.3,20c12.3,13.3,18.4,35,18.4,65.2c0,30.3-6.1,52.1-18.4,65.4
+		c-12.3,13.3-32.4,20.1-60.3,20.1H2.4V225.8z M36.2,256.2v109.9h9.2c13.2,0,22.7-4.2,28.3-12.5c5.6-8.3,8.4-22.5,8.4-42.6
+		c0-19.9-2.8-34-8.4-42.3c-5.6-8.3-15.1-12.5-28.3-12.5H36.2z"/>
+                    <path d="M270.9,396.4H164.5V225.8h106.3v29.7h-72.6v36.8H264V322h-65.7v44.7h72.6L270.9,396.4L270.9,396.4z"/>
+                    <path d="M313.7,225.8h40.2l20.3,74.9l20.2-74.9h40.5v170.6h-29.1V259.8l-18,74.7H361l-18.3-74.7v136.7h-29.1V225.8
+		H313.7z"/>
+                    <path d="M472.9,311.3c0-29.2,5-51.2,15.1-66.1c10.1-14.9,25-22.4,44.8-22.4s34.8,7.5,44.9,22.4
+		c10.1,14.9,15.1,37,15.1,66.1s-5,51.1-15.1,66c-10.1,14.9-25,22.4-44.9,22.4c-19.7,0-34.7-7.5-44.8-22.4
+		C477.9,362.5,472.9,340.4,472.9,311.3z M532.8,253c-8.6,0-14.9,4.6-18.9,13.7c-4,9.2-5.9,24.1-5.9,44.5c0,20.4,2,35.2,5.9,44.4
+		c4,9.2,10.2,13.7,18.9,13.7c8.6,0,15-4.6,19-13.7c4-9.2,5.9-24,5.9-44.4c0-20.5-2-35.3-5.9-44.5C547.8,257.6,541.5,253,532.8,253z"
+                    />
+                    <path d="M76.6,592.3c0-29.2,5-51.2,15.1-66.1c10.1-15,25-22.4,44.8-22.4s34.8,7.5,44.9,22.4
+		c10.1,14.9,15.1,37,15.1,66.1c0,29.2-5,51.1-15.1,66c-10.1,15-25,22.4-44.9,22.4c-19.7,0-34.7-7.5-44.8-22.4
+		C81.6,643.4,76.6,621.4,76.6,592.3z M136.5,533.9c-8.6,0-14.9,4.6-18.9,13.7c-4,9.2-5.9,24.1-5.9,44.5s2,35.2,5.9,44.5
+		c4,9.2,10.2,13.7,18.9,13.7c8.6,0,15-4.6,19-13.7c4-9.2,5.9-24,5.9-44.5c0-20.5-2-35.3-5.9-44.5
+		C151.5,538.5,145.1,533.9,136.5,533.9z"/>
+                    <path d="M351.7,536.4h-72.6v36.8h66.1v29.7h-66.1v74.5h-33.7V506.7h106.3V536.4z"/>
+                    <path d="M510.2,536.4h-72.6v36.8h66.1v29.7h-66.1v74.5h-33.7V506.7h106.3V536.4z"/>
+                </symbol>
+
+                <symbol id="map-demo-on" viewBox="-50 130 700 700">
+                    <path d="M0,258.3h36.5c28.1,0,48.3,6.7,60.7,20.1c12.4,13.4,18.5,35.3,18.5,65.7c0,30.5-6.1,52.5-18.5,66
+		c-12.4,13.5-32.6,20.2-60.7,20.2H0C0,430.4,0,258.3,0,258.3z M34.1,288.9v110.8h9.3c13.3,0,22.9-4.2,28.5-12.6
+		c5.7-8.4,8.5-22.7,8.5-42.9c0-20.1-2.8-34.3-8.5-42.6c-5.7-8.3-15.2-12.6-28.5-12.6h-9.3V288.9z"/>
+                    <path d="M270.7,430.4H163.4V258.3h107.2v30h-73.1v37.1h66.2v30h-66.2v45.1h73.2V430.4z"/>
+                    <path d="M313.8,258.3h40.6l20.5,75.5l20.4-75.5h40.8v172.1h-29.4V292.6l-18.2,75.3h-27.1l-18.4-75.3v137.9h-29.3
+		L313.8,258.3L313.8,258.3z"/>
+                    <path d="M474.3,344.6c0-29.5,5.1-51.7,15.3-66.8c10.2-15.1,25.2-22.6,45.1-22.6c20,0,35.1,7.5,45.2,22.6
+		c10.2,15.1,15.3,37.3,15.3,66.8c0,29.4-5.1,51.6-15.3,66.7c-10.2,15.1-25.2,22.6-45.2,22.6c-19.9,0-35-7.5-45.1-22.6
+		C479.5,396.1,474.3,373.9,474.3,344.6z M534.8,285.7c-8.6,0-15,4.6-19.1,13.9c-4,9.3-6,24.3-6,44.9c0,20.6,2,35.5,6,44.8
+		c4,9.3,10.3,13.9,19.1,13.9s15.1-4.6,19.2-13.9c4-9.3,6-24.2,6-44.8c0-20.6-2-35.6-6-44.9C550,290.4,543.5,285.7,534.8,285.7z"/>
+                    <path d="M154.7,627.9c0-29.4,5.1-51.7,15.3-66.8c10.2-15.1,25.2-22.6,45.1-22.6c20,0,35.1,7.5,45.2,22.6
+		c10.2,15.1,15.3,37.3,15.3,66.8c0,29.4-5.1,51.6-15.3,66.7c-10.2,15.1-25.2,22.6-45.2,22.6c-19.9,0-35-7.5-45.1-22.6
+		C159.8,679.4,154.7,657.2,154.7,627.9z M215.1,569c-8.6,0-15,4.6-19.1,13.9c-4,9.3-6,24.3-6,44.9s2,35.5,6,44.8
+		c4,9.3,10.3,13.9,19.1,13.9c8.7,0,15.1-4.6,19.2-13.9c4-9.3,6-24.2,6-44.8c0-20.6-2-35.6-6-44.9C230.2,573.7,223.8,569,215.1,569z"
+                    />
+                    <path d="M317.7,541.6h36.6l47.9,125.1V541.6h30v172.1h-36.4l-48.1-125.1v125.1h-30V541.6z"/>
+                </symbol>
+            
+        </svg>
+        <ul id="map_controls_buttons">
+
+                            <li id="map_control_type_globe">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-globe"></use>
+                    </svg>
+                    <div class="map_control_button_label">Switch to Plane view</div>
+                </li>
+                <li id="map_control_type_plane">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-plane"></use>
+                    </svg>
+                    <div class="map_control_button_label">Switch to Globe view</div>
+                </li>
+            
+                            <li id="map_control_color_dark">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-dark"></use>
+                    </svg>
+                    <div class="map_control_button_label">Toggle map Color</div>
+                </li>
+                <li id="map_control_color_light">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-light"></use>
+                    </svg>
+                    <div class="map_control_button_label">Toggle map Color</div>
+                </li>
+            
+                            <li id="map_control_zoom_in">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-zoom-in"></use>
+                    </svg>
+                    <div class="map_control_button_label">Zoom in</div>
+                </li>
+                <li id="map_control_zoom_out">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-zoom-out"></use>
+                    </svg>
+                    <div class="map_control_button_label">Zoom out</div>
+                </li>
+            
+                            <li id="map_control_demo_on">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-demo-on"></use>
+                    </svg>
+                    <div class="map_control_button_label">Enable demo mode</div>
+                </li>
+                <li id="map_control_demo_off">
+                    <svg class="map_control_button">
+                        <use xlink:href="#map-demo-off"></use>
+                    </svg>
+                    <div class="map_control_button_label">Disable demo mode</div>
+                </li>
+            
+        </ul>
+    </div>
+
+            <div id="detection_types_container"></div>
+    
+    <div id="countrypop" class="countrypop hidden">
+        <div class="popclose">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 595.3 841.9" enable-background="new 0 0 595.3 841.9" xml:space="preserve">
+                    <path d="M595.3,652.5L363.8,420.9l231.5-231.5l-66.1-66.1L297.6,354.8L66.1,123.3L0,189.4l231.5,231.5L0,652.5
+	l66.1,66.1l231.5-231.5l231.5,231.5"/>
+                </svg>
+        </div>
+        <h3 id="countrypop_title"></h3>
+        <h4 id="countrypop_subtitle">
+            #&nbsp;<span id="countrypop_ranking"></span>&nbsp;MOST-ATTACKED COUNTRY
+        </h4>
+        <ul class="countrypop_subsystems">
+                            <li data-detectiontype="1" class="countrypop_subsystem"
+                    title="On-Access Scan">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #38b349">OAS</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                            <li data-detectiontype="2" class="countrypop_subsystem"
+                    title="On-Demand Scan">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #ed1c24">ODS</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                            <li data-detectiontype="3" class="countrypop_subsystem"
+                    title="Mail Anti Virus">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #f26522">MAV</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                            <li data-detectiontype="4" class="countrypop_subsystem"
+                    title="Web Anti-Virus">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #0087f4">WAV</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                            <li data-detectiontype="5" class="countrypop_subsystem"
+                    title="Intrusion Detection Scan">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #ec008c">IDS</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                            <li data-detectiontype="6" class="countrypop_subsystem"
+                    title="Vulnerability Scan">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #fbf267">VUL</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                            <li data-detectiontype="7" class="countrypop_subsystem"
+                    title="Kaspersky Anti-Spam">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #855ff4">KAS</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                            <li data-detectiontype="8" class="countrypop_subsystem"
+                    title="Botnet Activity Detection">
+                    <h3 class="countrypop_subsystem_name"
+                        style="color: #00d1a9">BAD</h3>
+                    <h4 class="countrypop_subsystem_stats"></h4>
+                </li>
+                    </ul>
+        <div id="countrypop_disclaimer">
+            Detections discovered since 00:00 GMT
+        </div>
+
+                    <div id="countrypop_more_detail">
+                <a id="more_detail"
+                   data-base-url="/stats">More details</a></p>
+            </div>
+        
+        
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0"
+             style="position:absolute">
+
+            <symbol id="countrypop_sharing_vk" viewBox="0 251.1 595.3 338.2" >
+                <path d="M291.3,589.3h35.6c0,0,10.8-1.2,16.1-7.1c5.1-5.4,4.8-15.7,4.8-15.7s-0.7-47.8,21.5-54.8
+	c21.8-6.9,49.9,46.1,79.6,66.5c22.5,15.5,39.6,12.1,39.6,12.1l79.6-1.2c0,0,41.6-2.5,21.9-35.2c-1.7-2.6-11.5-24.2-59.1-68.4
+	c-49.8-46.3-43.1-38.8,16.9-118.8c36.7-48.7,51.4-78.5,46.7-91.2c-4.3-12.2-31.2-8.9-31.2-8.9l-89.5,0.6c0,0-6.6-0.9-11.6,2
+	c-4.8,2.9-7.9,9.6-7.9,9.6s-14.1,37.7-33.1,69.7c-39.9,67.6-55.8,71.3-62.3,67.1c-15.2-9.8-11.4-39.3-11.4-60.4
+	c0-65.6,9.9-93-19.4-100c-9.7-2.3-16.8-3.9-41.7-4.2c-32-0.4-59,0.1-74.3,7.6c-10.2,5-18,16.1-13.2,16.7c5.9,0.8,19.4,3.6,26.4,13.3
+	c9.2,12.5,8.9,40.5,8.9,40.5s5.3,77.2-12.4,86.9c-12.1,6.6-28.6-6.8-64.1-68.3c-18.2-31.4-32-66.2-32-66.2s-2.6-6.5-7.4-9.9
+	c-5.7-4.3-13.8-5.5-13.8-5.5l-84.9,0.5c0,0-12.7,0.4-17.5,5.9c-4.2,5-0.3,15.1-0.3,15.1s66.6,155.8,142,234.3
+	C212.8,594.1,291.3,589.3,291.3,589.3"/>
+            </symbol>
+
+            <symbol id="countrypop_sharing_fb" viewBox="98 35.8 400.5 770.5">
+                <path d="M357.4,806.3l0.3-351.6l118,0.1l17.8-137.1l-135.7-0.1l0.1-87.4c0-39.8,10.9-66.6,68.1-66.6l72.4,0.1
+	l0.1-122.5c-12.5-1.7-55.6-5.4-105.7-5.4C288,35.6,216.5,99.4,216.5,216.4l-0.1,101l-118.3-0.1L98,454.4l118.4,0.1L215.9,806
+	l141.5,0.1V806.3z"/>
+            </symbol>
+
+            <symbol id="countrypop_sharing_tw" viewBox="0 357.8 595.3 484.1">
+                <path d="M595.5,415c-22,9.8-45.5,16.3-70.1,19.2c25.3-15,44.6-39,53.8-67.5c-23.7,13.9-49.9,24.2-77.7,29.7
+	c-22.3-23.8-54-38.6-89.1-38.6c-67.4,0-122.2,54.7-122.2,122.2c0,9.6,1.2,19,3.3,27.9c-101.8-5.3-191.8-53.9-252-127.7
+	c-10.4,18.1-16.5,39-16.5,61.4c0,42.5,21.6,79.7,54.5,101.7c-19.9-0.7-38.7-6.1-55.2-15.3v1.6c0,59.2,42,108.5,97.9,119.7
+	c-10.2,2.8-21.1,4.4-32.2,4.4c-7.9,0-15.5-0.9-23.1-2.1c15.5,48.5,60.8,83.8,114.1,84.9c-41.8,32.7-94.4,52.2-151.8,52.2
+	c-9.7,0-19.6-0.7-29.2-1.8c54,34.6,118.2,55,187.2,55c224.7,0,347.4-186.2,347.4-347.4c0-5.3-0.2-10.7-0.4-16
+	C558.5,460.8,579.1,439.3,595.5,415L595.5,415z"/>
+            </symbol>
+
+            <symbol id="countrypop_sharing_gplus" viewBox="0 245 595.3 596.9">
+                <path d="M595.2,511.3h-78.9v-78.8H476v78.8h-78.9v38.6H476v78.9h40.3v-78.9h78.9V511.3z M313.2,585.5l-28.8-21.9
+	c-8.8-7-20.7-16.4-20.7-33.8c0-17.3,11.9-28.2,22.3-38.6c33.5-25.9,66.9-53.4,66.9-111.3c0-59.7-36.2-88.5-54.7-103.4h47.2L397,245
+	H230.9c-43.1,0-101.2,4.4-146.5,41.4C50.2,315.3,39,358.1,39,394.2c0,61.2,47.9,123.2,132.4,123.2c8.1,0,16.6-0.8,25.4-1.7
+	c-4,9.3-8,17.2-8,30.6c0,24.3,12.8,39.3,23.8,53.3C177,602,110.1,606,60.7,635.8c-47.1,27.7-61.4,67.6-61.4,95.8
+	c0,58.2,53.4,112.8,169,112.8c137,0,211.7-75.1,211.7-148.9C380.1,641.2,348.2,614.6,313.2,585.5L313.2,585.5z M208.9,497.4
+	c-68.6,0-99.5-87.1-99.5-139.7c0-20.4,4.1-43.6,17.5-60.1c12.8-15.8,35-23.9,55.7-23.9c66-0.1,100.4,87.8,100.4,144.2
+	c0,14.2-1.5,37.2-19.9,55.3C250.4,486,228.8,497.2,208.9,497.4L208.9,497.4z M209.4,810.9c-85.2,0-140.3-40-140.3-95.9
+	c0-55.7,51-74.5,68.6-80.8c33.5-11.1,76.5-12.6,83.6-12.6c8,0,12,0,18.3,0.9c60.7,42.4,86.9,63.4,86.9,103.6
+	C326.6,774.7,286,810.9,209.4,810.9L209.4,810.9z"/>
+            </symbol>
+
+        </svg>
+        <div id="countrypop_social">
+            <div>Share data</div>
+            <ul id="countrypop_sharing_icons">
+
+                
+                                <li class="facebook">
+                    <a href="" target="_blank" id="countrypop_sharing_icons_facebook">
+                        <svg class="countrypop_sharing_button">
+                            <use xlink:href="#countrypop_sharing_fb"></use>
+                        </svg>
+                    </a>
+                </li>
+                
+                                <li class="twitter">
+                    <a href="" target="_blank" id="countrypop_sharing_icons_twitter">
+                        <svg class="countrypop_sharing_button">
+                            <use xlink:href="#countrypop_sharing_tw"></use>
+                        </svg>
+                    </a>
+                </li>
+                
+                                <li class="gplus">
+                    <a href="" target="_blank" id="countrypop_sharing_icons_gplus">
+                        <svg class="countrypop_sharing_button">
+                            <use xlink:href="#countrypop_sharing_gplus"></use>
+                        </svg>
+                    </a>
+                </li>
+                            </ul>
+        </div>
+            </div>
+
+
+
+    
+    
+    <div class="webgl">
+        <canvas id="webgl-canvas"></canvas>
+    </div>
+</div>
+
+<div id="footer" class="closed" style="">
+        <a id="footer_logo" href="//www.kaspersky.com/" target="_blank">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 360.5 115.5" style="enable-background:new 0 0 360.5 115.5;" xml:space="preserve">
+            <g>
+                <path fill="#ffffff" class="st0" d="M300.8,77v-4h20.7v4H300.8z M321.5,55.6v4h-1.4c1.3,0.7,1.9,2.4,1.9,3.9c0,4.2-3.3,6.7-7.1,6.7
+		c-4.4,0-7.1-3.1-7.1-6.7c0-2.2,1.1-3.4,1.9-3.9h-1.4v-4H321.5z M314.9,66.2c1.2,0,3.3-0.9,3.3-3.3c0-1.4-0.7-2.3-1.5-2.8
+		c-0.5-0.3-1.1-0.5-1.7-0.6c-0.6,0-1.2,0.1-1.7,0.3c-0.9,0.4-1.8,1.3-1.8,3C311.5,65.2,313.4,66.2,314.9,66.2L314.9,66.2z
+		 M300.8,52.9v-4h7.5h1c-1.5-1.4-1.5-3.3-1.5-3.9c0-2.8,2-6.5,7-6.5c4.8,0,7.2,3.3,7.2,6.7c0,1.9-0.9,3.3-1.9,3.9h1.4v3.8H300.8z
+		 M314.8,42.5c-1.7,0-3.4,1.3-3.4,3.3c0,2.1,1.7,3.3,3.4,3.3c1.8,0,3.4-1.2,3.4-3.2C318.3,43.8,316.6,42.5,314.8,42.5L314.8,42.5z
+		 M82.2,64.2l5.1,10.2l5.1-10.2H82.2z M174.1,52.7l-10.2,5.1l10.2,5.1V52.7z M288.1,77L283,66.9L277.9,77H288.1z"/>
+                <path fill="#ffffff" class="st0" d="M105.9,77h-7.3L87.3,52.6L75.9,77h-7.3l18.6-40L105.9,77z M179.2,45.8v-7.3h-15.6H160h-3.6V77h3.6h3.6h15.6
+		v-7.3h-15.6v-24H179.2z M45.8,38.5h-7.3V77h7.3V38.5z M54.6,57.8l13.5-19.3h-8.5L46.1,57.8L59.6,77h8.5L54.6,57.8z M244.2,38.5H237
+		V77h7.3V38.5z M253,57.8l13.5-19.3H258l-13.5,19.3L258,77h8.5L253,57.8z M203.9,62.1c3.7-2.4,5.7-6.2,5.7-10.6
+		c0-4.7-2.1-8.6-5.9-10.8c-2.5-1.5-5.7-2.2-9.8-2.2h-9.1l0,0V77h7.3V57.8v-12h1.8c5,0,8.5,1.2,8.5,5.8c0,4.2-4.2,6.1-9,6.2
+		c-0.2,0-0.7,0-1,0v0L205.9,77h8.5L203.9,62.1z M146.4,40.7c-2.5-1.5-5.7-2.2-9.8-2.2h-9.1l0,0V77h7.3V57.8v-12h1.8
+		c5,0,8.5,1.2,8.5,5.8c0,4.2-4.2,6.1-9,6.2c-0.2,0-0.7,0-1,0v0l4.8,6.9c2.4-0.4,4.5-1.2,6.3-2.3c0.1-0.1,0.3-0.2,0.4-0.3
+		c3.7-2.4,5.7-6.2,5.7-10.6C152.4,46.8,150.2,42.9,146.4,40.7z M291.9,38.5L283,54l-8.9-15.5h-7.3l16.2,28l16.2-28H291.9z
+		 M105.3,82.4l3,6.4c14.1-10.8,16.7-22.8,7.5-35.7c-7.3-10.2,0.7-19.3,3.1-21.7l-5.4-4.3c-3.5,3.9-12.8,16-4.7,28.1
+		C116.7,67,115.9,73.4,105.3,82.4z M214.8,82.4l3,6.4c14.1-10.8,16.7-22.8,7.5-35.7c-7.3-10.2,0.7-19.3,3.1-21.7l-5.4-4.3
+		c-3.5,3.9-12.8,16-4.7,28.1C226.2,67,225.4,73.4,214.8,82.4z"/>
+            </g>
+</svg>
+    </a>
+    
+    <div id="footer_openclose_button" class="closed">
+        <div class="open">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 595.3 841.9" enable-background="new 0 0 595.3 841.9" xml:space="preserve">
+                <path d="M297.6,278.8l297.6,248l-30.2,36.2L297.6,340.1L30.2,563.1L0,526.9"/>
+            </svg>
+        </div>
+        <div class="close">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 595.3 841.9" enable-background="new 0 0 595.3 841.9" xml:space="preserve">
+                <path d="M297.6,563.1L0,315l30.2-36.2l267.5,222.9l267.5-222.9l30.2,36.2"/>
+            </svg>
+        </div>
+    </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0"
+                 style="position:absolute">
+
+                                <symbol id="facebook" viewBox="0 0 612 792">
+                    <circle cx="305.8" cy="395.6" r="306"/>
+                    <path fill="#FFFFFF" d="M330.3,557.5l0.4-147.8l49.6,0.1l7.6-57.6l-57-0.1l0.1-36.7c0-16.7,4.6-28,28.7-27.9l30.4,0.1l0.1-51.5
+	c-5.3-0.7-23.4-2.3-44.4-2.4c-44-0.2-74.2,26.6-74.2,75.8l-0.1,42.4l-49.7-0.1l-0.2,57.6l49.7,0.1l-0.4,147.8L330.3,557.5
+	L330.3,557.5z"/>
+                </symbol>
+                
+                                <symbol id="googleplus" viewBox="0 0 612 792">
+                    <circle cx="305.8" cy="395.6" r="306"/>
+                    <path fill="#FFFFFF" d="M496.2,377.1h-42.5v-42.4H432v42.4h-42.5V398H432v42.5h21.7V398h42.5V377.1z M344.2,417.1l-15.5-11.8
+	c-4.7-3.8-11.2-8.9-11.2-18.2c0-9.3,6.4-15.2,12-20.8c18-13.9,36.1-28.8,36.1-60c0-32.2-19.5-47.7-29.5-55.7h25.4l27.8-16.9h-89.5
+	c-23.2,0-54.5,2.4-78.9,22.3c-18.4,15.6-24.5,38.6-24.5,58.1c0,33,25.8,66.4,71.3,66.4c4.3,0,9-0.4,13.7-0.9
+	c-2.1,5-4.3,9.3-4.3,16.5c0,13.1,6.9,21.2,12.8,28.7c-19.2,1.2-55.2,3.4-81.9,19.4c-25.4,14.9-33.1,36.4-33.1,51.6
+	c0,31.3,28.8,60.8,91,60.8c73.8,0,114-40.5,114-80.2C380.3,447.1,363.1,432.8,344.2,417.1L344.2,417.1z M288.1,369.7
+	c-36.9,0-53.6-46.9-53.6-75.3c0-11,2.2-23.5,9.4-32.4c6.9-8.5,18.9-12.9,30-12.9c35.6-0.1,54.1,47.3,54.1,77.7
+	c0,7.7-0.8,20-10.7,29.8C310.4,363.5,298.8,369.5,288.1,369.7L288.1,369.7z M288.3,538.6c-45.9,0-75.6-21.5-75.6-51.7
+	c0-30,27.5-40.1,36.9-43.6c18-6,41.2-6.8,45-6.8c4.3,0,6.4,0,9.9,0.5c32.7,22.8,46.8,34.2,46.8,55.8
+	C351.5,519.1,329.6,538.6,288.3,538.6L288.3,538.6z"/>
+                </symbol>
+                
+                                <symbol id="linkedin" viewBox="0 0 612 792">
+                    <circle cx="305.8" cy="395.6" r="306"/>
+                    <path fill="#FFFFFF" d="M157.3,323.6h62.9v204.1h-62.9V323.6z M189.3,222.8c20.1,0,36.8,16.6,36.8,36.8c0,20.1-16.6,36.8-36.8,36.8
+	s-36.8-16.6-36.8-36.8S169.2,222.8,189.3,222.8z M260.5,323.6H321v27.3h1.2c8.3-16.7,29.7-33.3,60.5-33.3
+	c64.1,0,75.9,42.8,75.9,97.4v111.5h-62.9v-99.7c0-23.7,0-54.6-33.2-54.6s-38,26.1-38,52.2v100.8h-64.1V323.6L260.5,323.6z"/>
+                </symbol>
+                
+                                <symbol id="twitter" viewBox="0 0 612 792">
+                    <circle cx="305.8" cy="395.6" r="306"/>
+                    <path fill="#FFFFFF" d="M452.7,304.3c-10.9,4.9-22.6,8.1-34.8,9.5c12.5-7.4,22.1-19.3,26.7-33.5c-11.8,6.9-24.7,12-38.5,14.7
+	c-11-11.8-26.8-19.1-44.2-19.1c-33.4,0-60.5,27.1-60.5,60.5c0,4.8,0.6,9.4,1.6,13.8c-50.4-2.6-95-26.7-124.9-63.2
+	c-5.2,9-8.2,19.3-8.2,30.4c0,21.1,10.7,39.5,27,50.4c-9.9-0.3-19.2-3-27.4-7.6v0.8c0,29.4,20.8,53.8,48.5,59.3
+	c-5.1,1.4-10.5,2.2-16,2.2c-3.9,0-7.7-0.4-11.4-1.1c7.7,24.1,30.1,41.6,56.5,42.1c-20.7,16.2-46.8,25.9-75.3,25.9
+	c-4.8,0-9.7-0.3-14.5-0.9c26.8,17.2,58.6,27.2,92.8,27.2c111.4,0,172.2-92.3,172.2-172.2c0-2.6-0.1-5.3-0.2-7.9
+	C434.3,327,444.6,316.3,452.7,304.3L452.7,304.3z"/>
+                </symbol>
+                
+                
+            </svg>
+    <div id="footer_social_channels">
+        <ul>
+            
+                            <li class="facebook">
+                    <a href="//www.facebook.com/Kaspersky" target="_blank" id="footer_social_network_button_facebook">
+                        <svg class="footer-social-icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+            
+                            <li class="twitter">
+                    <a href="//twitter.com/kaspersky" target="_blank" id="footer_social_network_button_twitter">
+                        <svg class="footer-social-icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            
+                            <li class="gplus">
+                    <a href="//plus.google.com/+KasperskyLab" target="_blank" id="footer_social_network_button_gplus">
+                        <svg class="footer-social-icon">
+                            <use xlink:href="#googleplus"></use>
+                        </svg>
+                    </a>
+                </li>
+            
+                            <li class="linkedin">
+                    <a href="//www.linkedin.com/company/kaspersky-lab" target="_blank" id="footer_social_network_button_linkedin">
+                        <svg class="footer-social-icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+                    </ul>
+    </div>
+    
+    <div id="footer_copyright">
+                    <span id="footer_info">
+                &nbsp;&nbsp;Based on data from Kaspersky Lab.<br/>
+            </span>
+                        &copy;&nbsp;2018 AO Kaspersky Lab.&nbsp;All Rights Reserved.
+                            <br/>
+            &nbsp;&nbsp;<a id="tos_link" href="/tos/" about="_blank">Terms of Service</a>
+            <a id="tos_link" href="https://www.kaspersky.com/web-privacy-policy" about="_blank">Privacy policy</a>
+            </div>
+
+</div>
+    
+    <script type="text/javascript">
+        window.geoIP = {};
+        window.geoIP.country = "CN";
+        window.geoIP.coord = [39.0728, 114.8731];
+    </script>
+
+    <script src="/build/js/map-d4357a5ac8.js"></script>
+
+    <script type="text/javascript">
+        window.feedUrl = "default";
+        window.versionId = "default";
+
+        $(document).ready(function () {
+            $(".menu li a[data-subpage=\'1\']").addClass("active");
+            $("#content").css("top", $('#header').height() + "px");
+
+
+            var map_systems = [];
+                            map_systems.push({
+                id: 1,
+                shortname: "OAS",
+                name: "On-Access Scan",
+                description: "OAS (On-Access Scan) shows malware detection flow during On-Access Scan, i.e. when objects are accessed during open, copy, run or save operations.",
+                color: "38b349",
+                icon: "",
+                edges: 5
+            });
+                            map_systems.push({
+                id: 2,
+                shortname: "ODS",
+                name: "On-Demand Scan",
+                description: "ODS (On Demand Scanner) shows malware detection flow during On-Demand Scan, when the user manually selects the ’Scan for viruses’ option in the context menu.",
+                color: "ed1c24",
+                icon: "",
+                edges: 4
+            });
+                            map_systems.push({
+                id: 3,
+                shortname: "MAV",
+                name: "Mail Anti Virus",
+                description: "MAV (Mail Anti-Virus) shows malware detection flow during Mail Anti-Virus scan when new objects appear in an email application (Outlook, The Bat, Thunderbird). The MAV scans incoming messages and calls OAS when saving attachments to a disk.",
+                color: "f26522",
+                icon: "",
+                edges: 3
+            });
+                            map_systems.push({
+                id: 4,
+                shortname: "WAV",
+                name: "Web Anti-Virus",
+                description: "WAV (Web Anti-Virus) shows malware detection flow during Web Anti-Virus scan when the html page of a website opens or a file is downloads. It checks the ports specified in the Web Anti-Virus settings.",
+                color: "0087f4",
+                icon: "",
+                edges: 32
+            });
+                            map_systems.push({
+                id: 5,
+                shortname: "IDS",
+                name: "Intrusion Detection Scan",
+                description: "IDS (Intrusion Detection System) shows network attacks detection flow.",
+                color: "ec008c",
+                icon: "",
+                edges: 6
+            });
+                            map_systems.push({
+                id: 6,
+                shortname: "VUL",
+                name: "Vulnerability Scan",
+                description: "VUL (Vulnerability Scan) shows vulnerability detection flow.",
+                color: "fbf267",
+                icon: "",
+                edges: 8
+            });
+                            map_systems.push({
+                id: 7,
+                shortname: "KAS",
+                name: "Kaspersky Anti-Spam",
+                description: "KAS (Kaspersky Anti-Spam) shows suspicious and unwanted email traffic discovered by Kaspersky Lab’s Reputation Filtering technology.",
+                color: "855ff4",
+                icon: "",
+                edges: -16
+            });
+                            map_systems.push({
+                id: 8,
+                shortname: "BAD",
+                name: "Botnet Activity Detection",
+                description: "BAD (Botnet Activity Detection) shows statistics on identified IP-addresses of DDoS-attacks victims and botnet C&amp;C servers. These statistics were acquired with the help of the DDoS Intelligence system (part of the solution Kaspersky DDoS Protection).",
+                color: "00d1a9",
+                icon: "",
+                edges: 31
+            });
+            
+            $(function () {
+                var countryForGraph = null;
+                                        var hash = window.location.hash;
+                var param = {};
+                hash.slice(1).split("&").forEach(function (part) {
+                    var item = part.split("=");
+                    param[(item[0]).toLowerCase()] = decodeURIComponent(item[1]);
+                });
+
+                startCountry = 'auto';
+                startFromSelectedCountry = true;
+                if (typeof param["startcountry"] !== 'undefined') {
+                    startCountry = (param["startcountry"]).toUpperCase();
+                    startFromSelectedCountry = true;
+                }
+                
+                // initialise and start the map component
+                MAP.init({
+                    functions: MAP_functions,
+                    quality: (platformDetection.isMobile ? 'medium' : 'high'),
+                    systems: map_systems,
+                    showMapLabels: true,
+                    showCountryPops: false,
+                    demoEnabled:  true,
+                    demoFlightEnabled: true,
+                    allowInteraction:  true,
+                    startCountry: startCountry,
+                    startFromSelectedCountry: startFromSelectedCountry,
+                    showSubsystemPopup: true,
+                    showCountryPopup: true,
+                    countryForGraph: countryForGraph
+                });
+
+                if (localStorage.getItem("color") !== null && localStorage.getItem("color") == "light")
+                    switchMapColorToLight();
+                if (localStorage.getItem("view") !== null && localStorage.getItem("view") == "plane")
+                    switchMapViewToPlane();
+
+
+                MAP.World.on('loaded', function () {
+                    var contryForCarousel = null;
+
+                                                    $("#stats_graph").css("display", "none");
+                            
+                    var carousel = new DetectionTypeCarousel(
+                            $("#detection_types_container"),
+                            map_systems,
+                            contryForCarousel,
+                            [MAP.toggle_map, MAP.toggle_graph]);
+
+                    MAP.attachUpdateEventsCallback(function (event) {
+                        carousel.UpdateCounters(carousel, event);
+                    });
+                    MAP.showSystemInfo(carousel.ShowEventTypeInfo)
+
+                    var countryPopup = new CountryPopup($("#countrypop"));
+                    MAP.countrySelect(function (country) {
+                        countryPopup.setCountry(countryPopup, country);
+                    });
+                    MAP.updateCountryStats(function (country, rank, systems) {
+                        countryPopup.updateCountryStats(countryPopup, country, rank, systems);
+                    });
+                });
+            });
+
+        });
+    </script>
+
+            <script>
+            window.nesaShowData = false;
+        </script>
+    
+    <!-- Omniture tracking -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '839281392784015');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" src="https://www.facebook.com/tr?id=839281392784015&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MFTFX35"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+
+</body>
+</html>

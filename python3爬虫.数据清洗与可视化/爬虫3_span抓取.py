@@ -2,24 +2,31 @@
 from urllib import request
 import chardet
 
-
 charset = {}
 if __name__ == "__main__":
-    response = request.urlopen("http://www.finalnoob.com")
-    html = response.read()
-#Äã¿ÉÒÔÍ¨¹ı²é¿´F12ÖĞµÄ±àÂëÈ¥²é¿´µ±Ç°Ò³ÃæµÄ±àÂë
-#    html = html.decode("utf-8")
-#µ±È»Ò²¿ÉÒÔÊ¹ÓÃµÚÈı·¢¿âÈ¥»ñÈ¡Ò³ÃæµÄ±àÂë¸ñÊ½
+    #   response = request.urlopen("http://www.finalnoob.com")
+    response = request.urlopen("https://cybermap.kaspersky.com/")
 
-	
+    html = response.read()
+    # ä½ å¯ä»¥é€šè¿‡æŸ¥çœ‹F12ä¸­çš„ç¼–ç å»æŸ¥çœ‹å½“å‰é¡µé¢çš„ç¼–ç 
+    #    html = html.decode("utf-8")
+    # å½“ç„¶ä¹Ÿå¯ä»¥ä½¿ç”¨ç¬¬ä¸‰å‘åº“å»è·å–é¡µé¢çš„ç¼–ç æ ¼å¼
+
     charset = chardet.detect(html)
     print(charset)
-#    Êä³öµÄ½á¹û²¢²»ÊÇÖ±½Ó¾ÍÄÜ¹»Ê¹ÓÃ,ÑùÀıĞÎÊ½ÈçÏÂ:
+#    è¾“å‡ºçš„ç»“æœå¹¶ä¸æ˜¯ç›´æ¥å°±èƒ½å¤Ÿä½¿ç”¨,æ ·ä¾‹å½¢å¼å¦‚ä¸‹:
 #   {'encoding': 'utf-8', 'confidence': 0.99, 'language':  ' ' }
-#   ËùÒÔÈç¹ûÏëÒªÊµÏÖ×Ô¶¯»ñÈ¡µÄ»°,»¹ĞèÒª¶Ô·µ»Ø½á¹û½øĞĞ½ØÈ¡(×Öµä)
-abd=''
-if(charset!=''):
-	abd = charset['encoding']
+#   æ‰€ä»¥å¦‚æœæƒ³è¦å®ç°è‡ªåŠ¨è·å–çš„è¯,è¿˜éœ€è¦å¯¹è¿”å›ç»“æœè¿›è¡Œæˆªå–(å­—å…¸)
+abd = ''
+if (charset != ''):
+    abd = charset['encoding']
 print(abd)
 html = html.decode(abd)
 print(html)
+#	å°†æŠ“å–Result outputåˆ°txtæ–‡æœ¬ä¸­
+
+filename = 'output.txt'
+# filename= open("out.html","w",encoding='utf-8')
+
+with open(filename, 'w', encoding='utf-8') as file_object:
+    file_object.write(html)
