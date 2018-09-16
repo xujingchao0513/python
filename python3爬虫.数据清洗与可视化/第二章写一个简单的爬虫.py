@@ -171,3 +171,26 @@ for item in data:
     print(result)
 
 #   2.6爬虫攻防战
+#       爬虫是模仿人类的浏览行为,进行数据的批量抓取,当抓取的数据量增大时.会对被访问的服务器造成很大的压力甚至可能崩溃,
+#   因此服务器不喜欢有人抓取自己的数据,那么网站方面会针对这些爬虫者采取一些反爬策略
+#       服务器第一种识别爬虫的方式就是通过检查链接的usergent来识别到底是浏览器访问还是代码访问的,如果是代码访问的,访问量
+#   增大时,服务器直接封掉IP
+#   因此可以在F12中,通过Request headers 下的User-Agent,来构造这个请求的头的参数.
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) '
+             'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36'}
+response = requests.get(url,headers=headers)
+#       上面的代码,虽然可以模拟浏览器访问,但是爬虫1秒可以抓好多张图,服务器压力必然大.也就是说,如果一个IP下批量下载图片,这个
+#   行为不符合人类的行为,肯定要被封IP.
+#       解决方法有两种
+#   第一种:常用的增设延时,每3秒抓取一次,但是写爬虫的目的就是为了高效的批量抓取数据,3秒抓一次效率太低.
+import time
+#   python的sleep用法与java不同,java是毫秒,1000表示1秒,python里直接解释秒,1就是1秒
+time.sleep(3)
+#   第二种方式:不管如何访问,服务器的目的就是找出哪些是代码访问的,然后封掉IP,所以解决办法就是:在数据采集时使用代理
+#   ,当然requests也有相应的proxies属性.
+#   首先构造自己的代理IP池,将其以字典的形式赋值给proxies属性.
+proxies = {
+    "http":"http://10.10.1.10:3128",
+    "https":"https://10.10.1.10:1080"
+}
+response = requests.get(url,proxies=proxies)
