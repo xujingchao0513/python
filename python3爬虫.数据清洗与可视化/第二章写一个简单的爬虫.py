@@ -178,7 +178,7 @@ for item in data:
 #   因此可以在F12中,通过Request headers 下的User-Agent,来构造这个请求的头的参数.
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) '
              'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36'}
-response = requests.get(url,headers=headers)
+#response = requests.get(url,headers=headers)
 #       上面的代码,虽然可以模拟浏览器访问,但是爬虫1秒可以抓好多张图,服务器压力必然大.也就是说,如果一个IP下批量下载图片,这个
 #   行为不符合人类的行为,肯定要被封IP.
 #       解决方法有两种
@@ -193,4 +193,9 @@ proxies = {
     "http":"http://10.10.1.10:3128",
     "https":"https://10.10.1.10:1080"
 }
-response = requests.get(url,proxies=proxies)
+#response = requests.get(url,proxies=proxies)
+#   测试添加头信息和代理
+#response = requests.get(url,headers=headers,proxies=proxies)
+#print(response.text)
+#   也可以传递参数
+#r = requests.get(url,params=payload)
